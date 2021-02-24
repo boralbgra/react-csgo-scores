@@ -213,7 +213,7 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
          `GET` request. Returns all matches (both played and unplayed) that are being played for an specific date and event.
     *  **URL Params**
       
-          <_event_> Format example: <_ESEAPremierSeason36Australia_>
+          <_event_> Format example: <_ESEAPremierSeason36Australia_><br/>
           <_date_> Format example: <_2021-02-24_>
     * **Data Params**
       
