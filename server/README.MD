@@ -56,16 +56,16 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         <_None_>
     * **Response:**
       
-    ```json
-          [
-              {
-                  "title": "IEM Katowice: Biggest talking points so far",
-                  "description": "The CIS revolution, the underwhelming story of G2, and Astralis' \"six-man\" roster are some of the talking points explored ahead of the playoffs of the tournament.",
-                  "link": "https://www.hltv.org/news/31253/iem-katowice-biggest-talking-points-so-far",
-                  "time": "2021-02-24T11:10:00.000Z"
-              }, ...
-          ]
-      ```
+      ```json
+            [
+                {
+                    "title": "IEM Katowice: Biggest talking points so far",
+                    "description": "The CIS revolution, the underwhelming story of G2, and Astralis' \"six-man\" roster are some of the talking points explored ahead of the playoffs of the tournament.",
+                    "link": "https://www.hltv.org/news/31253/iem-katowice-biggest-talking-points-so-far",
+                    "time": "2021-02-24T11:10:00.000Z"
+                }, ...
+            ]
+        ```
 
 * ##### Events 
 
@@ -85,14 +85,14 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         <_None_>
     * **Response:**
       
-    ```json
-          [
-              {
-                  "event": "European Development Championship 2",
-                  "crest": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&s=3c5518b338c4c4c22757a29051dd2bcb"
-              }, ...
-          ]
-     ```
+      ```json
+            [
+                {
+                    "event": "European Development Championship 2",
+                    "crest": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&s=3c5518b338c4c4c22757a29051dd2bcb"
+                }, ...
+            ]
+       ```
 
 * ##### Matches 
 
@@ -111,30 +111,30 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         <_None_>
     * **Response:**
       
-    ```json
-          [
-              {
-                  "id": 2346458,
-                  "link": "/matches/2346458/sinners-vs-sprout-european-development-championship-2",
-                  "time": "2021-02-24T14:00:00.000Z",
-                  "event": {
-                      "name": "European Development Championship 2",
-                      "crest": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&s=3c5518b338c4c4c22757a29051dd2bcb"
-                  },
-                  "stars": 1,
-                  "map": "bo3",
-                  "teams": [
-                      {
-                          "name": "Sinners",
-                          "crest": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed"
-                      },
-                      {
-                          "name": "Sprout",
-                          "crest": "https://img-cdn.hltv.org/teamlogo/Ut8iEF66VCIbZGniMYn5jL.svg?ixlib=java-2.1.0&s=e6ae4904320fcbb566d098641e22a474"
-                      }
-                  ]
-              }, ...
-          ]
+      ```json
+            [
+                {
+                    "id": 2346458,
+                    "link": "/matches/2346458/sinners-vs-sprout-european-development-championship-2",
+                    "time": "2021-02-24T14:00:00.000Z",
+                    "event": {
+                        "name": "European Development Championship 2",
+                        "crest": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&s=3c5518b338c4c4c22757a29051dd2bcb"
+                    },
+                    "stars": 1,
+                    "map": "bo3",
+                    "teams": [
+                        {
+                            "name": "Sinners",
+                            "crest": "https://img-cdn.hltv.org/teamlogo/9l_WdQSU9JsNHzpK-pwOG2.svg?ixlib=java-2.1.0&s=af432c3ef61c0c843331cc0dc2fed1ed"
+                        },
+                        {
+                            "name": "Sprout",
+                            "crest": "https://img-cdn.hltv.org/teamlogo/Ut8iEF66VCIbZGniMYn5jL.svg?ixlib=java-2.1.0&s=e6ae4904320fcbb566d098641e22a474"
+                        }
+                    ]
+                }, ...
+            ]
       ```
 
 * ##### Results 
@@ -154,26 +154,26 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         <_None_>
     * **Response:**
       
-    ```json
-          [
-              {
-                  "event": "European Development Championship 2",
-                  "maps": "bo3",
-                  "time": "2021-02-24T13:12:32.000Z",
-                  "team1": {
-                      "name": "Nemiga",
-                      "crest": "https://img-cdn.hltv.org/teamlogo/ZxC3Wjx02_xmlJLh_0zgIr.svg?ixlib=java-2.1.0&s=779e4f748c25233b9b820fffd69eecbd",
-                      "result": 0
-                  },
-                  "team2": {
-                      "name": "Movistar Riders",
-                      "crest": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
-                      "result": 2
-                  },
-                  "matchId": "/matches/2346457/nemiga-vs-movistar-riders-european-development-championship-2"
-              }, ...
-          ]
-     ```
+      ```json
+            [
+                {
+                    "event": "European Development Championship 2",
+                    "maps": "bo3",
+                    "time": "2021-02-24T13:12:32.000Z",
+                    "team1": {
+                        "name": "Nemiga",
+                        "crest": "https://img-cdn.hltv.org/teamlogo/ZxC3Wjx02_xmlJLh_0zgIr.svg?ixlib=java-2.1.0&s=779e4f748c25233b9b820fffd69eecbd",
+                        "result": 0
+                    },
+                    "team2": {
+                        "name": "Movistar Riders",
+                        "crest": "https://img-cdn.hltv.org/teamlogo/Y37ZjhQhf-74eg44YCXe_m.png?ixlib=java-2.1.0&w=50&s=469ce0dff6be1d7a686ccdb42492077a",
+                        "result": 2
+                    },
+                    "matchId": "/matches/2346457/nemiga-vs-movistar-riders-european-development-championship-2"
+                }, ...
+            ]
+       ```
 
 * ##### Events by date 
 
@@ -193,14 +193,14 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         <_None_>
     * **Response:**
       
-    ```json
-          [
-              {
-                  "event": "European Development Championship 2",
-                  "crest": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&s=3c5518b338c4c4c22757a29051dd2bcb"
-              }, ...
-          ]
-     ```
+      ```json
+            [
+                {
+                    "event": "European Development Championship 2",
+                    "crest": "https://img-cdn.hltv.org/eventlogo/fUUnE-XkcPKbEohf3bvgsl.png?ixlib=java-2.1.0&s=3c5518b338c4c4c22757a29051dd2bcb"
+                }, ...
+            ]
+       ```
 
 * ##### Filter all matches by event and date
 
@@ -220,30 +220,30 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         <_None_>
     * **Response:**
       
-    ```json
-          [
-              {
-                  "time": "2021-02-24T11:38:53.000Z",
-                  "link": "/matches/2346729/animal-squad-vs-rot-esea-premier-season-36-australia",
-                  "event": {
-                      "name": "ESEA Premier Season 36 Australia"
-                  },
-                  "teams": [
-                      {
-                          "name": "Animal Squad",
-                          "crest": "/img/static/team/placeholder.svg",
-                          "result": 0
-                      },
-                      {
-                          "name": "R!OT",
-                          "crest": "https://img-cdn.hltv.org/teamlogo/1bzZtYCzZvCrCBgZp2QyzG.png?ixlib=java-2.1.0&w=50&s=96dcd5bf9731c72534b754ffeb2c37fb",
-                          "result": 2
-                      }
-                  ],
-                  "unplayed": false
-              }, ...
-          ]
-     ```
+      ```json
+            [
+                {
+                    "time": "2021-02-24T11:38:53.000Z",
+                    "link": "/matches/2346729/animal-squad-vs-rot-esea-premier-season-36-australia",
+                    "event": {
+                        "name": "ESEA Premier Season 36 Australia"
+                    },
+                    "teams": [
+                        {
+                            "name": "Animal Squad",
+                            "crest": "/img/static/team/placeholder.svg",
+                            "result": 0
+                        },
+                        {
+                            "name": "R!OT",
+                            "crest": "https://img-cdn.hltv.org/teamlogo/1bzZtYCzZvCrCBgZp2QyzG.png?ixlib=java-2.1.0&w=50&s=96dcd5bf9731c72534b754ffeb2c37fb",
+                            "result": 2
+                        }
+                    ],
+                    "unplayed": false
+                }, ...
+            ]
+       ```
 
 #### Scripts
 
