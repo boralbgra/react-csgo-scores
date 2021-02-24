@@ -33,7 +33,7 @@ This command will execute the file as a <_node_> file with the *nodemon* extensi
 
 #### Methods
 
-All methods are `GET` requests to retrieve the information. In this case there is no type of administration here, so there are no need of `POST` | `DELETE` | `PUT` requests. 
+All methods are `GET` requests to retrieve the information. In this case there is no type of administration here, so there is no need of `POST` | `DELETE` | `PUT` requests. 
 
 First four methods are the same as the HLTV-API mentioned above. From the fifth, these are new implementations for getting data purposes 
 
@@ -47,7 +47,7 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         
     * **Method type:**
       
-          `GET` request. Returns all news from HTLV webpage
+         `GET` request. Returns all news from HTLV webpage
     *  **URL Params**
       
           <_None_>
@@ -76,7 +76,7 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         ```
     * **Method type:**
       
-          `GET` request. Returns all events from HTLV webpage
+         `GET` request. Returns all events from HTLV webpage
     *  **URL Params**
       
           <_None_>
@@ -145,7 +145,7 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         ```
     * **Method type:**
       
-          `GET` request. Returns all results from HTLV webpage
+         `GET` request. Returns all results from HTLV webpage
     *  **URL Params**
       
           <_None_>
@@ -184,7 +184,7 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
 
     * **Method type:**
       
-          `GET` request. Returns all the events that are being played for an specific date
+         `GET` request. Returns all the events that are being played for an specific date
     *  **URL Params**
       
           <_date_> Format example: <_2021-02-24_>
@@ -210,7 +210,7 @@ First four methods are the same as the HLTV-API mentioned above. From the fifth,
         ```
     * **Method type:**
       
-          `GET` request. Returns all matches (both played and unplayed) that are being played for an specific date and event.
+         `GET` request. Returns all matches (both played and unplayed) that are being played for an specific date and event.
     *  **URL Params**
       
           <_event_> Format example: <_ESEAPremierSeason36Australia_>
