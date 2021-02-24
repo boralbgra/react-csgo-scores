@@ -14,7 +14,7 @@ npm install
 
 ### Running
 
-To run the React framework use the following command in your CLI:
+To run the React framework use the following command in your CLI inside _./client/app/_ folder:
 
 ```bash
 npm start 
