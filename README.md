@@ -1,6 +1,6 @@
 ## CS:GO Scores 
 
-CS:GO scores webapp made in React Framework that fetches data from an API REST done in Express framework.
+CS:GO scores webapp made in React Framework that fetches data from an API REST done in Express framework.<br/>
 Author: boralbgra | boralbgra@gmail.com<br/>
 
 
